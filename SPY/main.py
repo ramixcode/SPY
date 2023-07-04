@@ -4,6 +4,7 @@ import math
 import os
 from tqdm import tqdm
 import keyboard
+from pyfiglet import Figlet
 
 select_Language_checker = 0
 Select_option_checker = 0
@@ -30,6 +31,22 @@ spy_removed_checker = 0
 
 random_location = random.choice(words_list)
 
+from pyfiglet import Figlet
+name = '''
+r a m i x c o d e
+         S P Y
+'''
+f = Figlet(font='slant')
+ascii_art = f.renderText(name)
+print(ascii_art)
+print('''
+You can find me on social media
+Instagram : ramixcode
+Telegram : ramixcode
+Github : ramixcode
+''')
+print
+print('----------------------------------------------')
 print("WLC TO SPY GAME")
 while True:
     try:
